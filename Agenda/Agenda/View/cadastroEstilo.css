@@ -1,0 +1,150 @@
+﻿* {
+    font-family: sans-serif; /* Change your font family */
+}
+
+body {
+    /*background-color: #E9E9E9;*/
+    background-color: #f0f0f0;
+}
+
+hr.linhaSep {
+    /*border-top: 5px solid burlywood;*/
+    /*border-top: 5px solid #999999;*/
+    border-top: 5px solid #6d95cb;
+}
+
+.posCamposPrimeiraCol {
+    position: absolute;
+    left: 100px;
+}
+
+.posLabelSegundaCol {
+    position: absolute;
+    left: 335px;
+}
+
+.posCamposSegundaCol {
+    position: absolute;
+    left: 404px;
+}
+
+
+.centralizar {
+    margin: 0 auto; /*Centraliza o div*/
+    text-align: center; /* Centraliza o conteúdo do div (os botões)*/
+}
+
+.msgErro {
+    margin: 0 auto; /*Centraliza o div*/
+    text-align: center; /* Centraliza o conteúdo do div (os botões)*/
+    color: red;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.tabTitulo {
+    margin: 0 auto; /*Centraliza o div*/
+    text-align: center; /* Centraliza o conteúdo do div (os botões)*/
+    /* color: #009879; */
+    color: #000000;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.tabGeral {
+    border-collapse: collapse;
+    margin: 0 auto; /*Centraliza tabela*/
+    font-size: 0.9em;
+    min-width: 1024px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+    .tabGeral thead tr {
+        background-color: #009879;
+        color: #ffffff;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .tabGeral th, td {
+        padding: 12px 15px;
+    }
+
+
+    .tabGeral tbody tr {
+        border-bottom: 1px solid #dddddd;
+    }
+
+        .tabGeral tbody tr:nth-of-type(even) {
+            /* estiliza os elementos que são o enésimo número de filhos de seu elemento pai.*/
+            /* odd: filhos 1,3,2  even: filhos 2, 4, 6  */
+            background-color: #f3f3f3;
+        }
+
+        .tabGeral tbody tr:last-of-type { /*aplica o estilo na última linha*/
+            border-bottom: 2px solid #009879;
+        }
+
+    .tabGeral th:first-child {
+        width: 70px
+    }
+
+        .tabGeral th:first-child + th {
+            text-align: center;
+        }
+
+            .tabGeral th:first-child + th + th {
+                width: 50px
+            }
+
+                .tabGeral th:first-child + th + th + th {
+                    width: 70px
+                }
+
+                    .tabGeral th:first-child + th + th + th + th {
+                        width: 70px
+                    }
+
+
+    .tabGeral td:first-child {
+        width: 70px
+    }
+
+        .tabGeral td:first-child + td {
+            text-align: left;
+        }
+
+            .tabGeral td:first-child + td + td {
+                width: 50px
+            }
+
+                .tabGeral td:first-child + td + td + td {
+                    width: 70px
+                }
+
+                    .tabGeral td:first-child + td + td + td + td {
+                        width: 70px
+                    }
+
+.msgExcluir {
+    margin: 0 auto; /*Centraliza o div*/
+    text-align: center; /* Centraliza o conteúdo do div (os botões)*/
+    color: red;
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.gvHeader {
+    text-align: center;
+    color: cornsilk;
+}
+
+.gvItemCentro {
+    text-align: center;
+}
+
+.gvItemDireita {
+    text-align: right;
+}
